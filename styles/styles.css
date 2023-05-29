@@ -1,0 +1,106 @@
+body {
+  background-color: #f2f2f2;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header{
+  display: flex;
+
+}
+
+.text-center{
+  align-items: center;
+  text-align: center;
+}
+
+.board {
+  border: 4cm;
+  border-color: aqua;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  /* margin-bottom: 20px; */
+}
+
+.scores {
+  justify-items: flex-end;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.timer {
+  align-content: flex-end;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.binary {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.question {
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+}
+
+.guess {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  /* margin-bottom: 20px; */
+}
+
+input[type="number"] {
+  padding: 8px 16px;
+  width: 93%;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+  margin: 10px;
+}
+
+button.surrender {
+  background-color: #ccc;
+  width: 100%;
+  color: #333;
+  margin: 10px;
+}
+
+button.home {
+  background-color: #999;
+  width: 20%;
+}
